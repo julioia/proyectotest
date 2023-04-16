@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+    background: #40686d3f;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.recuperar {
+
+    text-align: center;
+}
+
+.candado {
+
+    text-align: center;
+}
+
+.seguro {
+
+    justify-content: center;
+    border-radius: 10px;
+    display: block;
+    width: 150;
+    height: 150;
+    margin-top:  auto;
+    margin-left: 600px;
+
+}
+
+.nuevo {
+    justify-content: center;
+    border-radius: 10px;
+    display: block;
+    width: 150;
+    height: 150;
+    margin-top:  200px;
+    margin-left: 200px;
+}
+
+.cambios {
+        text-align: center;
+    }
+
+
+    .token {
+        justify-content: center;
+        border-radius: 10px;
+        display: block;
+        width: 150;
+        height: 150;
+        margin-top:  auto;
+        margin-left: 200px;
+    }
+
+
