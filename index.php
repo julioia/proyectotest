@@ -27,7 +27,6 @@ if (isset($_POST['Guardar'])) {
 
     if ($ejecutar) {
       echo "<script>alert('El registro se ha guardado correctamente')</script>";
-      echo "<script>alert('$usuario,tu codigo de verificacion es: $codigo')</script>";
       echo "<script>window.open('login.php', '_self');</script>";
     } else {
       echo "<script>alert('El registro no existe en la base de datos')</script>";

@@ -37,7 +37,7 @@ include("bootstrap.php");
                     <h2>Iniciar Sesión</h2>
                     <input type="text" name='usuario' required class="form-control" placeholder='Usuario' maxlength="50">
                     <input type="password" name='clave' required class="form-control" placeholder='Contraseña' maxlength="20">
-                    <input type="password" name='codigo' required class="form-control" placeholder='Codigo de verificacion' maxlength="6">
+                    <input type="text" name='codigo' required class="form-control" placeholder='Codigo de verificacion' maxlength="6">
                     <button type="submit" id="Ingresar" name="Ingresar" class="btn btn-success btn-sm" value="Ingresar">Ingresar</button>
                     <hr />
                     <a href="javascript:void(0);" onclick="window.open('clave.php', 'popup', 'top=100, left=100, width=599, height=680, toolbar=NO, resizable=NO, Location=NO, Menubar=NO, Titlebar=No, Status=NO')" rel="nofollow">¿Olvido su contraseña?</a><br></br>
@@ -67,7 +67,7 @@ include("bootstrap.php");
         include('codigo.php');
         ?>
     </div>
-    
+
     <!--seperar-->
 
     <div class='tel'>

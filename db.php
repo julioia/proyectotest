@@ -1,8 +1,8 @@
 <?php
 
-$serverName = "F22IA";
+$serverName = "SERVER";
 
-$connectionInfo = array("Database" => "validar", "UID" => "sa", "PWD" => "Maxcontrol.2024.");
+$connectionInfo = array("Database" => "validar", "UID" => "sa", "PWD" => "Maxcontrol.2024");
 
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 

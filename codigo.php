@@ -21,3 +21,4 @@ $contenido = 'Pagina de prueba Julio Reyes,3004308155';
 QRcode::png($contenido,$filename,$level,$tamanio,$frameSize);
 
 echo '<img src="'.$filename.'" />';
+?>
